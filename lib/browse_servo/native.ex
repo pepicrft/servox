@@ -4,7 +4,7 @@ defmodule BrowseServo.Native.Release do
   @version Mix.Project.config()[:version]
 
   def base_url(file_name) do
-    "https://github.com/pepicrft/browse_servo/releases/download/#{@version}/#{file_name}"
+    "https://github.com/tuist/browse_servo/releases/download/#{@version}/#{file_name}"
   end
 end
 
